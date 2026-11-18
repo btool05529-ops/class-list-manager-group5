@@ -8,6 +8,13 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
     return len(names)
 
+#Written by: Manal Alsaif(task2)
+def search_name(names, name):
+    for n in names:
+        if n==name:
+            return True 
+        return False
+
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -15,6 +22,6 @@ def main():
     print("Number of names:", count_names(names))
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
-
+    print("search for Sara:", serch_name(names, "Sara"))
 
 main()
