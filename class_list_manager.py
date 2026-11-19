@@ -15,6 +15,12 @@ def search_name(names, name):
             return True 
         return False
 
+# Written by: Elaf Alhumayzi (task 3)
+def to_upper(names):
+    new_names = [ ]
+    for name in names:
+        new_names.append(name.upper())
+    return new_names
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -23,5 +29,6 @@ def main():
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
     print("search for Sara:", serch_name(names, "Sara"))
+    print("Names in uppercase:", to_upper(names))
 
 main()
