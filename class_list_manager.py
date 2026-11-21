@@ -22,13 +22,20 @@ def to_upper(names):
         new_names.append(name.upper())
     return new_names
 
+# Written by: jana aldwirij (task 3)
+def sort_names(names):
+    sorted_list = sorted(names)
+    return sorted_list
+
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
     print("Number of names:", count_names(names))
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
+    
     print("search for Sara:", serch_name(names, "Sara"))
     print("Names in uppercase:", to_upper(names))
+    print("Sorted names:", sort_names(names))
 
 main()
