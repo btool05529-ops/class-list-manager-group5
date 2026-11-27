@@ -14,5 +14,5 @@ A Python program that manages a class list using lists and strings.
 
 | Jana Aldwirij | sort_names |
 
-| Farah Ali | README Documentation |
+| Farah Ali | remove_duplicates |
 
