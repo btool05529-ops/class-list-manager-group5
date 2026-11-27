@@ -26,6 +26,20 @@ def to_upper(names):
 def sort_names(names):
     sorted_list = sorted(names)
     return sorted_list
+    
+# Written by: Farah Ali (task 8)
+
+def remove_duplicates(names):
+
+    unique_names = []
+
+    for name in names:
+
+        if name not in unique_names:
+
+            unique_names.append(name)
+
+    return unique_names
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -37,5 +51,5 @@ def main():
     print("search for Sara:", serch_name(names, "Sara"))
     print("Names in uppercase:", to_upper(names))
     print("Sorted names:", sort_names(names))
-
+    print("Without duplicates:", remove_duplicates(names))
 main()
