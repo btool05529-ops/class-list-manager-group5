@@ -27,7 +27,7 @@ def sort_names(names):
     sorted_list = sorted(names)
     return sorted_list
     
-# Written by: Farah Ali (task 8)
+# Written by: Farah Ali (task 8 remove_duplicates)
 
 def remove_duplicates(names):
 
