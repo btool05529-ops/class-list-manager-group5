@@ -48,7 +48,7 @@ def main():
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
     
-    print("search for Sara:", serch_name(names, "Sara"))
+    print("search for Sara:", search_name(names, "Sara"))
     print("Names in uppercase:", to_upper(names))
     print("Sorted names:", sort_names(names))
     print("Without duplicates:", remove_duplicates(names))
